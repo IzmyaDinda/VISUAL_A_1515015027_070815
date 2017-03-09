@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowActivated" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowActivated"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="motto" min="-2" max="-2" attributes="0"/>
+                      <Component id="alamat" min="-2" max="-2" attributes="0"/>
+                      <Component id="gender" min="-2" max="-2" attributes="0"/>
+                      <Component id="tanggal" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Component id="tempat" min="-2" max="-2" attributes="0"/>
+                          <Component id="hasilnama" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="namahasil" max="32767" attributes="0"/>
+                      <Component id="tempathasil" max="32767" attributes="0"/>
+                      <Component id="tanggalhasil" max="32767" attributes="0"/>
+                      <Component id="genderhasil" pref="149" max="32767" attributes="0"/>
+                      <Component id="alamathasil" max="32767" attributes="0"/>
+                      <Component id="mottohasil" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="109" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="hasilnama" min="-2" max="-2" attributes="0"/>
+                      <Component id="namahasil" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tempat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tempathasil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tanggal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tanggalhasil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="gender" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="genderhasil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="alamat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="alamathasil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="motto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="mottohasil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="64" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="hasilnama">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nama : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tempat">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tempat : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tanggal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tanggal : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="gender">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gender :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="alamat">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Alamat :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="motto">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Motto :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="namahasil">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tempathasil">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tanggalhasil">
+        </Component>
+        <Component class="javax.swing.JTextField" name="genderhasil">
+        </Component>
+        <Component class="javax.swing.JTextField" name="alamathasil">
+        </Component>
+        <Component class="javax.swing.JTextField" name="mottohasil">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
